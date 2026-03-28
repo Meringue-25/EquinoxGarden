@@ -1,3 +1,4 @@
+/* not the line*/
 body { 
   background: rgb(255, 254, 254);
   /*background:
@@ -8,11 +9,11 @@ body {
   text-align: center;
   margin-top: 50px;
 }
-
+/*not the line*/
 #todo-container {
   background: rgba(114, 81, 81, 0.346);
   width: 400px;
-  height: 100px;
+  height: 80px;
   border: 2px solid #fefefe00;
   margin: 1em auto 2em;
   padding: 20px;
@@ -30,17 +31,19 @@ body {
   color: white;
   border-radius: 15px;
 }
+/*not thw line*/
 #header {
   margin: 5px;
   font-size: 20px;
   text-align: center;
 }
 
-
+/*not the line*/
 h1 {
   /*make sure its not overlapping*/
   margin-bottom: 80px; 
 }
+
 
 #input-box {
   width: 200px;
@@ -105,7 +108,7 @@ margin-top: 20px;
 hr
  {
   border: 1px solid rgb(0, 0, 0);
-  margin-top: 400px;
+  margin-top: 700px;
   color: black;
 }
 
