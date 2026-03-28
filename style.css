@@ -10,10 +10,43 @@ body {
 
 #todo-container {
   background: rgba(203, 203, 203, 0.346);
-  width: 450px;
+  width: 400px;
   margin: 0 auto;
   border: 2px solid #fefefe00;
   padding: 20px;
   color: white;
   border-radius: 15px;
+}
+
+#header {
+  margin: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 50px; 
+}
+
+#input-box {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #fffdfd00;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+#input-button {
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #c6d4b9;
+}
+
+#input-button:hover {
+  background-color: #c6d4b9;
 }
