@@ -6,7 +6,7 @@ body {
   background: linear-gradient(to right, #e6a7a78b, #89a97092);
   font-family: "Gill Sans", sans-serif;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 #todo-container {
@@ -20,15 +20,26 @@ body {
   border-radius: 15px;
 }
 
-
+#task-container {
+  background: rgba(114, 81, 81, 0.346);
+  width: 400px;
+  min-height: 200px;
+  border: 2px solid #fefefe00;
+  margin-top: 100px;
+  padding: 20px;
+  color: white;
+  border-radius: 15px;
+}
 #header {
   margin: 5px;
   font-size: 20px;
   text-align: center;
 }
 
+
 h1 {
-  margin-bottom: 50px; 
+  /*make sure its not overlapping*/
+  margin-bottom: 80px; 
 }
 
 #input-box {
@@ -64,12 +75,14 @@ ul {
 
 li {
 /*border: 1px solid rgba(208, 160, 160, 0.91);*/
+color: black;
+font-size: 20px;
 background-color:rgba(255, 255, 255, 0.499);
 border-radius: 5px;
 margin-bottom: 20px;
-margin-left: 50px;
-margin-right: 50px;
-padding: 10px;
+margin-left: 20px;
+margin-right: 20px;
+padding: 15px;
 margin-top: 20px;
 }
 
@@ -85,13 +98,26 @@ margin-top: 20px;
 
 .completed {
   text-decoration: line-through;
-  color: gray;
-  border: 1px solid gray;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
 }
+
+hr {
+  border: 1px solid rgb(0, 0, 0);
+  margin-top: 550px;
+  color: black;
+}
+
 .cherry-blossom {
   height:fit-content;
   width:fit-content;
-  length:fit-content;
-  margin-top:20%;
   margin-left:5%;
+  position: fixed;
+  
+}
+.flower1 {
+  height:fit-content;
+  width:fit-content;
+  margin-left:5%;
+  position: static;
 }
