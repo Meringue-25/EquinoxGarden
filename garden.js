@@ -33,3 +33,10 @@ checkbox.addEventListener("click", function () {
     li.classList.toggle("completed", checkbox.checked);
   });
 
+editBtn.addEventListener("click", function () {
+    const update = prompt("Edit task:", taskSpan.textContent);
+    if (update !== null) {
+      taskSpan.textContent = update;
+      li.classList.remove("completed");
+    }
+});
