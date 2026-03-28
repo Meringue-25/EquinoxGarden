@@ -119,3 +119,9 @@ hr
   margin-top:20%;
   margin-left:5%;
 }
+.flower1 {
+  height:fit-content;
+  width:fit-content;
+  margin-left:5%;
+  position: static;
+}
