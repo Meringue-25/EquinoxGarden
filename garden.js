@@ -53,8 +53,6 @@ function addTask()  {
     });
 }
 
-<<<<<<< HEAD
-=======
 const checkbox = li.querySelector("input");
 const editBtn = li.querySelector(".edit-btn");
 const taskSpan = li.querySelector("span");
@@ -72,21 +70,3 @@ editBtn.addEventListener("click", function () {
       li.classList.remove("completed");
     }
 });
-
-
-
-
-
-
-/*let currentStage = 1; // Starting stage
-
-function cycleBlossoms() {
-    currentStage++;
-    if (currentStage > 7) {
-        currentStage = 1;
-    }
-    const blossomImg = document.getElementById("blossom-img");
-    blossomImg.src = imgs/Cherry Blossem-${currentStage}.png.png;
-    blossomImg.alt = Cherry blossom stage ${currentStage};
-}*/
->>>>>>> b67d9c0 (?)
