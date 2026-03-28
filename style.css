@@ -115,8 +115,8 @@ hr
 .cherry-blossom {
   height:fit-content;
   width:fit-content;
-  margin-top:20%;
   margin-left:5%;
+  position: fixed;
 }
 .flower1 {
   height:fit-content;
