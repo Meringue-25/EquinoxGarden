@@ -31,6 +31,7 @@ const deleteBtn = li.querySelector(".delete-btn");
 
 checkbox.addEventListener("click", function () {
     li.classList.toggle("completed", checkbox.checked);
+    updateCounters();
   });
 
 editBtn.addEventListener("click", function () {
@@ -38,12 +39,22 @@ editBtn.addEventListener("click", function () {
     if (update !== null) {
       taskSpan.textContent = update;
       li.classList.remove("completed");
+      checkbox.checked = false;
+      updateCounters();
     }
 });
 
+const completedCounter = document.getElementById("completed-counter");
+const uncompletedCounter = document.getElementById("uncompleted-counter");
 
-
-
+function updateCounters() {
+    const completedTasks = document.querySelectorAll(".completed").length;
+    const uncompletedTasks =
+      document.querySelectorAll("li:not(.completed)").length;
+  
+    completedCounter.textContent = completedTasks;
+    uncompletedCounter.textContent = uncompletedTasks;
+  }
 
 
 let currentStage = 1; // Starting stage
@@ -57,3 +68,4 @@ function cycleBlossoms() {
     blossomImg.src = imgs/Cherry Blossem-${currentStage}.png.png;
     blossomImg.alt = Cherry blossom stage ${currentStage};
 }
+
