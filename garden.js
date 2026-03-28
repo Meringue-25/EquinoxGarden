@@ -8,6 +8,7 @@ function addTask()  {
         alert("Please write down a task");
         return; 
     }
+    const li = document.createElement("li");
+    
 }
 
-const li = document.createElement("li");
