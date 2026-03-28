@@ -11,18 +11,18 @@ body {
 }
 /*not the line*/
 #todo-container {
-  background: rgba(114, 81, 81, 0.346);
+  background: rgba(172, 71, 71, 0.56);
   width: 400px;
   height: 80px;
   border: 2px solid #fefefe00;
-  margin: 1em auto 2em;
+  margin: 20px auto;
   padding: 20px;
   color: white;
   border-radius: 15px;
 }
 
 #task-container {
-  background: rgba(114, 81, 81, 0.346);
+  background: rgba(172, 71, 71, 0.56);
   width: 400px;
   height: 500px;
   border: 2px solid #fefefe00;
@@ -85,7 +85,7 @@ border-radius: 5px;
 margin-bottom: 20px;
 margin-left: 20px;
 margin-right: 20px;
-padding: 15px;
+padding: 12px;
 margin-top: 20px;
 }
 
