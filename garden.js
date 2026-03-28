@@ -55,18 +55,3 @@ editBtn.addEventListener("click", function () {
 });
 
 
-
-
-
-
-let currentStage = 1; // Starting stage
-
-function cycleBlossoms() {
-    currentStage++;
-    if (currentStage > 7) {
-        currentStage = 1;
-    }
-    const blossomImg = document.getElementById("blossom-img");
-    blossomImg.src = imgs/Cherry Blossem-${currentStage}.png.png;
-    blossomImg.alt = Cherry blossom stage ${currentStage};
-}
